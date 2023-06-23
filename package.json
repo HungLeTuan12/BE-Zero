@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-backend-zero",
+  "version": "1.0.0",
+  "description": "Mong se thanh cong",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HungLeTuan12/BE-Zero.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "HungTuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HungLeTuan12/BE-Zero/issues"
+  },
+  "homepage": "https://github.com/HungLeTuan12/BE-Zero#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
