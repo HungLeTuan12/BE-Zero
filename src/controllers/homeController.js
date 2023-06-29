@@ -1,7 +1,8 @@
 const { get } = require("../routes/web")
-
+const connection = require("../config/database");
 const getHomePage = (req, res) => {
-    res.send('Hello world with Tuan Hung dev')
+    return res.render('home.ejs');
+    
 }
 const getABC = (req, res) => {
     res.send('<h1>Hung Tuan Le!</h1>')
